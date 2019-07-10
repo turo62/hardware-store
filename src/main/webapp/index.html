@@ -1,12 +1,44 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>My first styled page</title>
+    <link rel="stylesheet" href="mystyle.css">
 </head>
+
 <body>
+
+<!-- Site navigation menu -->
+<ul class="navbar">
+    <li><a href="index.html">Home page</a></li>
+    <li><a href="musings.html">Musings</a></li>
+    <li><a href="form.html">E-mail</a></li>
+</ul>
+
+<!-- Main content -->
+<h1>My first styled page</h1>
+
+<p>Welcome to my styled page!
+
+<p>It lacks images, but at least it has style.
+    And it has links, even if they don't go
+    anywhere&hellip;</p>
+
+<p>There should be more here, but I don't know
+    what yet.</p>
+
+<h2>Subscribe to my site</h2>
+
+<form action = "PostServlet" method = "POST">
+    E-mail:<br>
+    <input type = "email" name = "E-mail" value = "sby@somewhere.com">
+    <input type = "submit" value = "Submit">
+</form>
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called main.jsp.</p>
+
+<!-- Sign and date the page, it's only polite! -->
+<address>Made 13 June 2019<br>
+    by Istvan Turoczi.</address>
+
 </body>
-<h1>Hi!</h1>
-<a href="greeting">Click here to list all <em>greetings</em> using <strong>JSP</strong>.</a>
 </html>

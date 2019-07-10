@@ -1,0 +1,59 @@
+body {
+	margin-left: 12%; margin-right: 6%;
+	color: #6A5ACD; background: #EEE8AA;
+	font-family: Verdana, sans-serif; }
+strong { color: red; }
+div.box { border: solid; border-width: thick; width: 100%; }
+div.color {
+    background: black;
+    padding: 0.5em;
+    border: none;
+  }
+body.fontstyling {
+	font-style: italic;
+	margin-left: 12%; margin-right: 6%;
+	color: #6A5ACD; background: #EEE8AA;
+	font-family: Verdana, sans-serif; }
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+h1 { margin-left: 24%;
+	text-transform: uppercase;
+	font-family: Garamond, "Times New Roman", serif; }
+h2.subsection { margin-top: 2em; margin-bottom: 1em;
+	margin-left: 28%;
+	text-transform: lowercase; }
+h2,h3,h4,h5,h6 { margin-left: 28%;
+	margin-top: 1em; margin-bottom: 1em;
+	text-transform: uppercase; }
+h4.bold { font-family: Garamond, "Times New Roman", serif; }
+p { margin-left: 4%; margin-right: 10%;
+	text-indent: 2em; margin-top: 2em; margin-bottom: 2em; }
+p.bold { font-weight: bold; }
+p.uppercase { font-weight: bold;
+	text-transform: uppercase; }
+p.changed {
+    padding-left: 0.2em;
+    border-left: solid;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-left-width: double;
+    border-color: red;
+  }
+ul.navbar li {
+    background: silver;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid aqua }
+ ul.navbar a {
+    text-decoration: none }
+  a:link {
+    color: blue }
+  a:visited {
+    color: purple }
