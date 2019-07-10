@@ -2,3 +2,7 @@
 target
 *.iml
 *.swp
+src/main/java/com/codecool/web/listener/
+src/main/java/com/codecool/web/model/
+src/main/java/com/codecool/web/service/
+src/test/
